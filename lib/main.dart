@@ -1,10 +1,11 @@
+import 'package:dessignflutter/src/pages/slidesshow_pages.dart';
 import 'package:flutter/material.dart';
 
 // import 'package:dessignflutter/src/pages/headers_page.dart';
 // import 'package:dessignflutter/src/pages/animaciones_page.dart';
 // import 'package:dessignflutter/src/retos/cuadrado_animado_page.dart';
 // import 'package:dessignflutter/labs/circular_progress_page.dart';
-import 'package:dessignflutter/src/pages/graficas_circulares_page.dart';
+// import 'package:dessignflutter/src/pages/graficas_circulares_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       
       title: 'Diseños App Flutter ',
-      home: GraficasCircularePage(),
+      home: SlideShowPage(),
 
     );
   }

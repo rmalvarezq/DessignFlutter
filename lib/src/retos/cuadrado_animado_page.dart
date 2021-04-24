@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class CuadradoAnimadoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
